@@ -1,0 +1,128 @@
+html,
+body,
+* {
+	background-color: white;
+	color: rgb(50,50,50);
+ 	font-family: "Jost", sans-serif;
+
+ 	font-weight: 500;
+ 	font-style: medium;
+ 	cursor: url("cursor.png") 24 24, auto !important;
+}
+
+/* CONTAINER */
+
+.container {
+  width: 1450px;
+  margin:0px auto;
+  background-color: white;
+}
+
+/* CONTAINER - TEXT */
+h1 {
+  margin-top: 0;
+}
+
+h1, h2, h3{
+  color: #b71b16;
+  font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* CONTAINER SCREENS*/
+
+@media (max-width: 760px) {
+  .container{
+    width: 600px;
+  } 
+  .container {
+    width: 95%;
+  } 
+  .portfolio ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .portfolio img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .container{
+    width: 400px;
+  } 
+  .portfolio ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .portfolio img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1, h2, h3 {
+    font-size: 40px;
+  }
+}
+
+/* HEADER */
+
+.header {
+  width: auto;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header a {
+  margin-right: 100px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+/* PORTAFOLIO */
+
+.portfolio{
+  border-top: 1px dashed black;
+  border-bottom: 1px dashed black;
+  padding-top: 18px;
+}
+
+/* BOTTOM */
+
+/* SOCIALS */
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  }
+
+.portfolio ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 0;
+  display: flex;
+  gap: 40px;
+}
+
+
+.title h1:hover {
+  color: #b71b16;
+  text-decoration: underline;
+  text-decoration-color: #b71b16;
+}
+
+
