@@ -1,110 +1,73 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html>
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Timeless Films</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:wght@400;500&display=swap" rel="stylesheet">
-
-<style>
-html,
-body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-body {
-    font-family: "Jost", sans-serif;
-    cursor: url("cursor.png") 24 24, auto;
-}
-
-/* Vídeo de fons */
-
-video {
-    position: fixed;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* Capa fosca opcional per llegir millor el text */
-
-.overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.2);
-}
-
-/* Eslògan */
-
-.slogan {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    font-family: "DM Serif Display", serif;
-    font-size: 40px;
-
-    line-height: 0.9;
-    text-align: center;
-    color: white;
-
-    z-index: 2;
-}
-
-/* Mòbil */
-
-@media (max-width: 768px) {
-    .slogan {
-        font-size: 52px;
-        width: 90%;
-    }
-}
-
-@media (max-width: 480px) {
-    .slogan {
-        font-size: 38px;
-    }
-}
-
-.watch-btn a {
-    color: #b71b16;
-    font-family: "Jost", sans-serif;
-    font-size: 14px;
-    letter-spacing: 3px;
-    text-decoration: none;
-}
-.watch-btn a:hover {
-    text-decoration: underline;
-}
-
-</style>
+	<title>THE VISION | Wedding Filmaker | Europe</title>
+	<meta name="desciption" content="Timeless films for today's lovers.">
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/644328ac73.js" crossorigin="anonymous"></script>
+	
 </head>
 
-<body>
+<body> 
+	
+	<div class="container"> 
+		<div class="header">
+			<nav>
+	    	  <a href="thevision.html" >Wedding Films</a>
+	    	  <a href="about.html">About</a>
+	    	  <a href="contact.html">Contact</a>
+    		</nav>
+ 		</div>
 
-    <video autoplay muted loop playsinline>
-        <source src="images/tvvideo.mp4" type="video/mp4">
-    </video>
+ 		<div class="title">
+ 			<a href="index.html">
+ 			<h1>THE VISION
+			</h1>
+			</a>
+ 		</div>
 
-    <div class="overlay">
-    </div>
+		<div class="portfolio">
+			<ul class="list-inline">
+				<li>
+					<a href="https://www.youtube.com/watch?v=FpaYofLlKWA" target="_blank">
+						<img src="images/massolers.png" width="700">
+						<p> 01. Alberto & Carlos - Mas Solers </p>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=iw4Yq9DCqJM" target="_blank">
+						<img src="images/sever.png" width="700">
+						<p> 02. Mari & Cristian - Torre Sever </p>
+					</a>
+				</li>
+			</ul>
+			
+		</div>
 
-    <div class="slogan">
-        timeless films<br>
-        for today's lovers.
-        <div class="watch-btn">
-          <a href="index.html">WATCH THE FILMS
-          </a>
-        </div>
-    </div>
+		<div class="bottom">
+			<h2>Coming Soon!
+			</h2>
+			<p>We are building something beautiful here. Full website coming soon.
+			</p>
+
+			<img src="images/profile.png" width="200" alt="THE VISION">
+		</div>
+
+		<div class="socials">
+			<a href="https://www.instagram.com/thevisionmadeit/" target="_blank">
+				<i class="fa-brands fa-instagram"></i>
+			</a>
+			<a href="https://www.youtube.com/watch?v=sGrZVIONcWI&list=PLU4U4mw5_KGvVgR_sDePAgGDgPp26LbXI" target="_blank">
+				<i class="fa-brands fa-youtube"></i>
+			</a>
+		</div>		
+	</div>
 </body>
-</html>
