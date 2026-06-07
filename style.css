@@ -67,7 +67,7 @@ h1, h2, h3{
   }
 
   h1, h2, h3 {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 
@@ -81,7 +81,7 @@ h1, h2, h3{
 }
 
 .header a {
-  margin-right: 100px;
+  margin-right: 50px;
   text-decoration: none;
   color: black;
   font-size: 15px;
